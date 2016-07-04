@@ -10,7 +10,8 @@ http://www.ibm.com/smarterplanet/jp/ja/ibmwatson/developercloud/nl-classifier.ht
 1. Bluemixアカウントを作成
 
 2. Bluemixにログイン
-　地域と組織を作成することになるので適当に選ぶ。
+
+  地域と組織を作成することになるので適当に選ぶ。
 
 3. Natural Language Classifierサービスを作成
 
@@ -22,8 +23,13 @@ http://www.ibm.com/smarterplanet/jp/ja/ibmwatson/developercloud/nl-classifier.ht
   {
   "credentials": {
     "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
-    "password": "UP1YF66w0Nru",
-    "username": "4f27f63e-d9d0-4c82-b5bc-5d8ae1144dd4"
-  }
+    "password": "パスワード",
+    "username": "ユーザID"
+    }
   }
   ```
+
+4. 学習用のデータを準備
+
+  CSV形式で学習用データを用意する。  
+  サンプルはhttp://www.ibm.com/watson/developercloud/doc/nl-classifier/resources/weather_data_train.csv

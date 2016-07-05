@@ -16,4 +16,7 @@ https://www.luis.ai/
 
 3. Entityを定義
   作成したApplicationの編集画面に行き、左側のEntitiesの「＋」ボタンをクリックする。
+
+  ![Application編集画面](https://raw.githubusercontent.com/r-stack/tutorial/images/azure/luis_dashboard.JPG)  
+  
   ダイアログが出るので、任意の名前を設定してsaveする。

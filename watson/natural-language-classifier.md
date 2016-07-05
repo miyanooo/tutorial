@@ -33,7 +33,8 @@ http://www.ibm.com/smarterplanet/jp/ja/ibmwatson/developercloud/nl-classifier.ht
 4. 学習用のデータを準備
 
   CSV形式で学習用データを用意する。  
-  サンプルはhttp://www.ibm.com/watson/developercloud/doc/nl-classifier/resources/weather_data_train.csv
+  サンプルはhttp://www.ibm.com/watson/developercloud/doc/nl-classifier/resources/weather_data_train.csv  
+  
   【注意事項】
    - エンコーディングはUTF-8
    - 5行以上、15000行以下
@@ -42,7 +43,7 @@ http://www.ibm.com/smarterplanet/jp/ja/ibmwatson/developercloud/nl-classifier.ht
 
 5. Classifier(分類機)を作成して学習させる
 
-  curlが使える環境に学習用データファイルを配置して、以下のコマンドを実行する。
+  curlが使える環境に学習用データファイルを配置して、以下のコマンドを実行する。  
   言語種別はEnglish (en), Arabic (ar), French (fr), German, (de), Italian (it), Japanese (ja), Portuguese (pt), Spanish (es)のどれか。
   ```
   curl -u "<ユーザID>":"<パスワード>" -F training_data=@<学習用データ.csv> -F training_metadata="{\"language\":\"<言語種別>\",\"name\":\"<Classifierの名前>\"}" "https://gateway.watsonplatform.net/natural-language-classifier/api/v1/classifiers"
